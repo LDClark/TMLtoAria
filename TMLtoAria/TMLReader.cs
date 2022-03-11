@@ -39,9 +39,7 @@ namespace TMLtoAria
                 {
                     i++;
                     if (string.IsNullOrWhiteSpace(line))
-                    {
                         continue;
-                    }
                     if (line.StartsWith("#"))
                         continue;
                         
