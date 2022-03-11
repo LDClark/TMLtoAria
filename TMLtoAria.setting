@@ -1,0 +1,4 @@
+HostName: "server here"
+Port: "port here"
+DocKey: "doc key here"
+ImportDir: "\\serverhere\path to tmls here"
