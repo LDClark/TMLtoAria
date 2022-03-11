@@ -181,7 +181,6 @@ namespace TMLtoAria
                     }
                     if (line.StartsWith("Move"))
                     {
-                        //MessageBox.Show("move");
                         var value = line.Split('=')[1];
                         if (line.Contains(";"))
                         {
@@ -210,7 +209,6 @@ namespace TMLtoAria
                     }
                     if (line.StartsWith("PaperOrientation"))
                     {
-                        //MessageBox.Show("orientation");
                         if (line.Split('=')[1].Contains("Landscape"))
                         {
                             firstPage.Orientation = PdfSharp.PageOrientation.Landscape;
