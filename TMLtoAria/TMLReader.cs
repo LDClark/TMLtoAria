@@ -223,7 +223,6 @@ namespace TMLtoAria
                     }
                     if (line.StartsWith("PaperSize"))
                     {
-                        MessageBox.Show("paper size" + line.Split('=')[1] + " found");
                         if (line.Split('=')[1].Contains("A4"))
                         {
                             firstPage.Size = PdfSharp.PageSize.A4;
