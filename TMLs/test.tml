@@ -1,0 +1,16 @@
+Section=CoverPage
+PaperSize=A4
+PaperOrientation=Landscape
+Height=300
+LineSpacing=1.50
+Move=0
+Move=0;200
+LineSpacing=1.3
+Margin=200
+Move=0
+Font=84;900;Arial
+Text=TREATMENT REPORT
+RelativeMove=0;-10
+HorizontalLine=0
+RelativeMove=0;2
+HorizontalLine=0
