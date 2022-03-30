@@ -7,7 +7,7 @@
     <ProjectGuid>{A944E22C-7D15-4B2A-9F56-EF6EB1F15E79}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>TMLtoAria</RootNamespace>
-    <AssemblyName>TMLtoAria-1.0.0.62.esapi</AssemblyName>
+    <AssemblyName>TMLtoAria-1.0.0.75.esapi</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -133,6 +133,7 @@
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="PlanViewModel.cs" />
     <Compile Include="Script.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TMLReader.cs" />
