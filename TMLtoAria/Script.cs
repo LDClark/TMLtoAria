@@ -32,7 +32,7 @@ namespace VMS.TPS
             String settingsFilePath = Path.Combine(locPath, @"TMLtoAria.setting");
             DocSettings docSettings = DocSettings.ReadSettings(settingsFilePath);
 
-            var viewModel = new MainViewModel(context.CurrentUser, patient, plan, docSettings);
+            var viewModel = new MainViewModel(context.CurrentUser, plan, docSettings);
             var mainWindow = new MainWindow();
             mainWindow.DataContext = viewModel;
             mainWindow.Title = "TMLtoAria";
